@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <form action="/upload" enctype="multipart/form-data" method="post">
+      <p>附件：<input type="file" name="myfile"></p>
+      <p>
+          <input type="submit">
+      </p>
+  </form>
+</html>
